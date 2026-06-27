@@ -102,7 +102,7 @@ div[data-testid="stAlert"] p {
 TEXT_COLOR = "#0B3D91"   # dark grey, easy to read
 LINE_Y = 460             # vertical position (in pixels) where the name is printed
 
-FONT_PATH = r"C:\Windows\Fonts\arial.ttf"
+FONT_PATH = "DejaVuSans.ttf"
 
 
 # ---------- Function: create one certificate image ----------
