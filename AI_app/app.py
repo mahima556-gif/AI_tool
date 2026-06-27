@@ -102,7 +102,7 @@ div[data-testid="stAlert"] p {
 TEXT_COLOR = "#0B3D91"   # dark grey, easy to read
 LINE_Y = 460             # vertical position (in pixels) where the name is printed
 
-FONT_PATH = "Roboto-Regular.ttf.ttx"
+FONT_PATH = "Roboto_Condensed-Bold.ttf"
 
 
 # ---------- Function: create one certificate image ----------
