@@ -109,7 +109,10 @@ FONT_PATH = r"C:\Windows\Fonts\arial.ttf"
 
 def make_certificate(name):
     # Open the blank template
-    img = Image.open("template.png").convert("RGB")
+
+    from pathlib import Path
+    BASE_DIR = Path(__file__).parent
+    img = Image.open(BASE_DIR / "template.png").convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # Choose font and size for the name
