@@ -116,7 +116,10 @@ def make_certificate(name):
     draw = ImageDraw.Draw(img)
 
     # Choose font and size for the name
+    try:
     font = ImageFont.truetype(FONT_PATH, 55)
+    except:
+    font = ImageFont.load_default()
 
     # Find text width so we can center it
     bbox = draw.textbbox((0, 0), name, font=font)
